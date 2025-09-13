@@ -5,11 +5,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-[Computational neuroscience](https://en.wikipedia.org/wiki/Computational_neuroscience) is an interdisciplinary field that links the diverse fields of neuroscience, cognitive science, and psychology with electrical engineering, computer science, mathematics, and physics. It is an area of study that seeks to understand how the brain computes in order to produce intelligent behavior. Computational neuroscience is distinct from psychological connectionism and from learning theories of disciplines such as machine learning, neural networks, and computational learning theory in that it emphasizes descriptions of functional and biologically realistic neurons (and neural systems) and their physiology and dynamics.
-
-
-> [!NOTE]
-> This is direct fork from [analyticalmonk](https://github.com/analyticalmonk/awesome-neuroscience). Most of the content might be same. I will be adding more content to this list.
+[Computational neuroscience](https://en.wikipedia.org/wiki/Computational_neuroscience) is an interdisciplinary field that links the diverse fields of neuroscience, cognitive science, and psychology with electrical engineering, computer science, mathematics, and physics. It is an area of study that seeks to understand how the brain computes in order to produce intelligent behavior.
 
 ## Contents
 
@@ -20,11 +16,21 @@
   - [JavaScript](#javascript)
   - [R](#r)
 
+- [Datasets](#datasets)
+    - [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets#neuroscience)
+    
+
+- [Connectomes](#connectomes)
+    - [`c-elegans`]()
+    - [`drosophila melanogaster`]()
+
+
 - [Resources](#resources)
+  - [FAQ](#faq)
+  - [pre compiled resources](#pre-compiled-resources)
   - [Books](#books)
   - [Ebooks](#ebooks)
   - [Podcasts](#podcasts)
-  - [Datasets](#datasets)
   - [Blogs](#blogs)
   - [Tutorial](#tutorial)
   - [Workshops](#workshops)
@@ -75,11 +81,27 @@ Software, libraries and frameworks for development purposes.
 - [nat: NeuroAnatomy Toolbox](https://github.com/jefferis/nat) - Package for the (3D) visualisation and analysis of biological image data, especially tracings of single neurons.
 - [brainGraph](https://github.com/cwatson/brainGraph) - Package for performing graph theory analyses of brain MRI data.
 
+
+## Datasets
+- [Awesome Public Datasets - Neuroscience](https://github.com/awesomedata/awesome-public-datasets#neuroscience) - High-quality open neuroscience datasets.
+
+
+
 ## Resources
 Interesting resources related to neuroscience.
 
-### Datasets
-- [Awesome Public Datasets - Neuroscience](https://github.com/awesomedata/awesome-public-datasets#neuroscience) - High-quality open neuroscience datasets.
+### faq
+
+- [Kanaka Rajan's FAQ on Computational Neuroscience](https://www.rajanlab.com/faq)
+
+### Pre compiled Resources
+
+> [!NOTE]
+> there maight be some overlap in the resources listed in this repository and in the resources below.
+
+- [Resources by Dan Goodman](https://neural-reckoning.org/comp-neuro-resources.html)
+- [Resources by Fleur Zeldenrust](https://fleurzeldenrust.nl/computational-neuroscience-resources/)
+- [Resources by ]
 
 ### Books
 
@@ -87,7 +109,7 @@ Interesting resources related to neuroscience.
 > Most of these books are not freely available.
 
 - Principles of Neural Science 
-- Theoretical Neuroscience 
+- [Theoretical Neuroscience](https://boulderschool.yale.edu/sites/default/files/files/DayanAbbott.pdf)
 - The Computational Brain
 - Dynamical Systems in Neuroscience
 - [Foundations of mathematical neuroscience](https://neurophysics.ucsd.edu/courses/physics_171/Ermentrout_Therman.pdf)
@@ -96,9 +118,10 @@ Interesting resources related to neuroscience.
 - Fundamentals of Computational Neuroscience
 
 ### Ebooks
+- [Neuronal Dynamics](https://neuronaldynamics.epfl.ch) - Open-access electronic textbook that covers computational and theoretical neuroscience. Provided by École Polytechnique Fédérale de Lausanne (EPFL).
+- [Computational Neuroscience](https://mrgreene09.github.io/computational-neuroscience-textbook/) -open textbook written by students of Computational Neuroscience at Bates College.
 - [Neuroscience Online](http://nba.uth.tmc.edu/neuroscience/m/index.htm) - Open-access electronic textbook and interactive courseware covering neuroscience in depth. Provided by the Department of Neurobiology and Anantomy at the University of Texas Medical School at Houston.
 - [Computational Cognitive Neuroscience](https://grey.colorado.edu/CompCogNeuro/index.php/CCNBook/Main) - Text which provides an in-depth introduction to the main ideas in the computational cognitive neuroscience, a field which aims to understand the brain by using biologically based computational models.
-- [Neuronal Dynamics](https://neuronaldynamics.epfl.ch) - Open-access electronic textbook that covers computational and theoretical neuroscience. Provided by École Polytechnique Fédérale de Lausanne (EPFL).
 - [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/) - Book companion to [Andy's Brain Blog](https://www.andysbrainblog.com/). Provides an introduction to working in a Unix environment, fMRI analysis, and commonplace neuroimaging tools and topics. 
 - [NiPraxis](https://textbook.nipraxis.org/intro.html) - Textbook for the [NiPraxis course](https://nipraxis.org/), covers fundamental concepts in neuroimaging analysis and how they relate to the wider world of statistics, engineering and computer science. Learn how to work with data and code to get a deeper understanding of how fMRI methods work, how they can fail, how to fix them, and how to develop new methods.
 
@@ -146,6 +169,10 @@ MOOCs may be patterned on a college or university course or may be less structur
 - [Brain Matters](https://brainpodcast.com/) - Neuroscience podcast where real neuroscientists sit down and talk about the brain.
 - [NeuroHackademy](https://neurohackademy.org/course_type/lectures/) - Summer school in neuroimaging and data science, held at the University of Washington eScience Institute. Lectures are available through the institute's [YouTube channel](https://www.youtube.com/@UWeScienceInstitute).
 - [SORTED](https://github.com/PTDZ/SORTED) - SORTED: a list of interesting science ideas and links (cognitive/neuro & data science)
+
+> [!NOTE]
+> This is direct fork from [analyticalmonk](https://github.com/analyticalmonk/awesome-neuroscience). Most of the content might be duplicate. I will be adding more content to this list.
+
 
 <!--## Contribute
 
